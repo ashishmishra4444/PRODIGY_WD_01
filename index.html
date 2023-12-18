@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <!-- Header Start -->
+    <header>
+
+        <div id="menu" class="bx bx-menu"></div>
+
+        <a href="#" class="logo"><span>G</span>humo</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <!-- <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i> -->
+            <i class='bx bx-search' id="search-btn" ></i>
+            <i class='bx bxs-user'  id="login-btn"></i>
+    
+        </div>
+        <form action="" class="search-bar-cont">
+            <input type="search" id="search-bar" placeholder="Search here...." >
+            <label for="search-bar" class='bx bx-search'></label>
+        </form>
+    </header>
+    <!-- Header End -->
+
+    <!-- Login Form -->
+    <div class="login-cont">
+
+        <i class='bx bx-x' id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" class="btn" value="login now">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>Forgot Password? <a href="#">click here</a></p>
+            <p>Don't have an account? <a href="#">register here</a></p>
+
+        </form>
+    </div>
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Life is an adventure in forgiveness</h3>
+            <p>dscover new places with us, adventure awaits</p>
+            <a href="#" class="btn">diiscover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="7.mp4"></span>
+            <span class="vid-btn" data-src="6.mp4"></span>
+            <span class="vid-btn" data-src="5.mp4"></span>
+            <span class="vid-btn" data-src="3.mp4"></span>
+            <span class="vid-btn" data-src="4.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="5.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+    <!-- home section ends -->
+
+
+    <!-- book section starts  -->
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="1.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name....">
+                </div>
+
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests....">
+                </div>
+
+                <div class="inputBox">
+                    <h3>arrival</h3>
+                    <input type="date">
+                </div>
+
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- book section ends -->
+
+    <!-- packages section starts -->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="3.jpg" alt="">
+                <div class="content">
+                    <h3> <i class='bx bxs-map' ></i>mumbai</h3>
+                    <p>Mumbai has something to offer everybody. It's a city where diversity rules! In Mumbai, you can experience everything from food trucks to the 5-star dining. You can travel in the luxury of the chauffeur driven car or choose to experience the hustle and bustle of a local train. For the creature of comfort, Mumbai offers some of the best in class hotels, while also offering slum tours for those seeking to explore the underbelly of Mumbai!. In India, Mumbai is referred to as the 'City of Dreams' and rightly so, because no dream is too big for Mumbai to fulfil! Mumbai is the queen of maverick and conforms to nobody's rules.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <div class="price">₹6999 <span>₹9999</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="5.jpg" alt="">
+                <div class="content">
+                    <h3> <i class='bx bxs-map' ></i>london</h3>
+                    <p>A visit to London is a must for everyone as this is one city that will make you fall in love with it so much that you'll want to keep coming back. With stunning architecture, gorgeous gardens, magnificent towers, busy streets, many shops, and some iconic sites, London is everything dreamy. Hop on a double-decker bus and enjoy the sites of the city, travel in the underground metro, spot the iconic black taxi, and pose for an amazing photo inside the red telephone booth. Indisputably, a visit to London will bring everything you have read about or seen on screen to life in an opulent and classy manner.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <div class="price">₹6999 <span>₹9999</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="6.jpg" alt="">
+                <div class="content">
+                    <h3> <i class='bx bxs-map' ></i>maldives</h3>
+                    <p>If you want to visit a picture-perfect destination that oozes luxury, Maldives is the place to be in. With over 1,000 islands, this archipelago has become a top favourite among tourists, especially as a honeymoon destination. Its white sandy beaches, sparkling blue water, and beautiful sunsets make it a perfect getaway. The best part is that it attracts those who want a relaxing holiday and even those who want to get an adrenaline rush with the many water sports activities available here. Malé is the capital of the Republic of Maldives and has many attractions that offer a clear glimpse of the vibrant Maldivian heritage and culture.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <div class="price">₹6999 <span>₹9999</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="8.jpg" alt="">
+                <div class="content">
+                    <h3> <i class='bx bxs-map' ></i>canada</h3>
+                    <p>The expanse of Canada's natural beauty, from mountains and glaciers to secluded lakes and forests, is almost unparalleled worldwide. But Canada's allure is not just the great outdoors. Canada has cosmopolitan cities that are clean, safe, friendly, and multicultural. In fact, Canada repeatedly is lauded as one of the world's most livable countries. Whether your interests are river rafting or live theater, Canada won’t disappoint. Canada has many modern, multicultural cities, each with its own distinct personality. Toronto, Montreal, and Vancouver are possibly the best-known, but there are so many others that highlight different aspects of Canada, such as its maritime culture, mountainous landscape, French history, or its indigenous people. Each city is delightful for different reasons. Canada is an affordable vacation choice.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <div class="price">₹6999 <span>₹9999</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="7.jpg" alt="">
+                <div class="content">
+                    <h3> <i class='bx bxs-map' ></i>tokyo</h3>
+                    <p>Hello, curious traveler!
+                        Embark on a unique experience with City Unscripted Tokyo. Our personalized, private tours, led by local hosts, make you feel like you’re exploring the city with a knowledgeable friend. We’ll take you to well-known sights and reveal Tokyo’s hidden gems, unveiling stories typically missed by traditional tours. So unscript your journey, and see Tokyo through the eyes of our local hosts! Hey there, it's Yunna! For many years, Tokyo, steeped in a rich history, has been my favorite playground. It's where I've immersed myself in bustling shopping streets, attended vibrant traditional festivals, and experienced the warm hospitality of the Japanese people, thanks to my friends and family living there. Now, it's time to share the magic of this city, a world-famous gem that provides compelling reasons to visit Japan, specifically Tokyo.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <div class="price">₹6999 <span>₹9999</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="4.jpg" alt="">
+                <div class="content">
+                    <h3> <i class='bx bxs-map' ></i>sydney</h3>
+                    <p>For a person that’s been nomadic for the last year and doesn’t really know if “home” will ever be one place, this is a rare sentence I’m about to utter. Sydney is a city I would live in. I know, it doesn’t seem so surprising, but the desire to put down roots is an odd feeling for me, so I thought it best to acknowledge. So what do I love so much about Sydney? Well, there’s quite a few things on that list. The Sydney food scene definitely has a noticeable inclination towards the healthy, it seems to compensate by offering up the most insane desserts ever. It’s got stunning scenic views, the beach AND the city within a manageable radius, a multicultural population from all over the world and pretty great weather year round – what more could you want? If you haven’t already visited this Australian city, I highly recommend putting it on your list ASAP..</p>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <div class="price">₹6999 <span>₹9999</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- packages section ends -->
+
+    <!-- services section starts -->
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quae.</p>
+            </div>
+
+            <div class="box">
+                <i class='bx bx-restaurant'></i>
+                <h3>food and drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quae.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guides</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quae.</p>
+            </div>
+
+            <div class="box">
+                <i class='bx bx-world'></i>
+                <h3>around the world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quae.</p>
+            </div>
+
+            <div class="box">
+                <i class='bx bxs-plane-alt'></i>
+                <h3>fastest travel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quae.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quae.</p>
+            </div>
+        </div>
+    </section>
+    <!-- services section ends -->
+
+    <!-- gallery section starts  -->
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="18.jpg" alt="" />
+                <div class="content">
+                    <h3>amzing places</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ipsum rem aliquid, sequi voluptatibus laboriosam quae alias quidem cupiditate, ut eos similique, quam nihil nobis rerum blanditiis corrupti quas mollitia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="9.jpg" alt="" />
+                <div class="content">
+                    <h3>amzing places</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ipsum rem aliquid, sequi voluptatibus laboriosam quae alias quidem cupiditate, ut eos similique, quam nihil nobis rerum blanditiis corrupti quas mollitia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="10.jpg" alt="" />
+                <div class="content">
+                    <h3>amzing places</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ipsum rem aliquid, sequi voluptatibus laboriosam quae alias quidem cupiditate, ut eos similique, quam nihil nobis rerum blanditiis corrupti quas mollitia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="11.jpg" alt="" />
+                <div class="content">
+                    <h3>amzing places</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ipsum rem aliquid, sequi voluptatibus laboriosam quae alias quidem cupiditate, ut eos similique, quam nihil nobis rerum blanditiis corrupti quas mollitia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="13.jpg" alt="" />
+                <div class="content">
+                    <h3>amzing places</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ipsum rem aliquid, sequi voluptatibus laboriosam quae alias quidem cupiditate, ut eos similique, quam nihil nobis rerum blanditiis corrupti quas mollitia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="15.jpg" alt="" />
+                <div class="content">
+                    <h3>amzing places</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ipsum rem aliquid, sequi voluptatibus laboriosam quae alias quidem cupiditate, ut eos similique, quam nihil nobis rerum blanditiis corrupti quas mollitia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="12.jpg" alt="" />
+                <div class="content">
+                    <h3>amzing places</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ipsum rem aliquid, sequi voluptatibus laboriosam quae alias quidem cupiditate, ut eos similique, quam nihil nobis rerum blanditiis corrupti quas mollitia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="14.jpg" alt="" />
+                <div class="content">
+                    <h3>amzing places</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ipsum rem aliquid, sequi voluptatibus laboriosam quae alias quidem cupiditate, ut eos similique, quam nihil nobis rerum blanditiis corrupti quas mollitia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="17.jpg" alt="" />
+                <div class="content">
+                    <h3>amzing places</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ipsum rem aliquid, sequi voluptatibus laboriosam quae alias quidem cupiditate, ut eos similique, quam nihil nobis rerum blanditiis corrupti quas mollitia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <!-- gallery section ends -->
+
+    <!-- review section starts-->
+    <section id="review" class="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="19.jpg" alt="">
+                        <h3>alex watt</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus impedit, maiores nesciunt commodi nostrum distinctio dicta dignissimos? Animi deserunt cumque sint totam a fuga assumenda et ad odio! Voluptate, reiciendis.</p>
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bx-star' ></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="20.jpg" alt="">
+                        <h3>shradha sharma</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus impedit, maiores nesciunt commodi nostrum distinctio dicta dignissimos? Animi deserunt cumque sint totam a fuga assumenda et ad odio! Voluptate, reiciendis.</p>
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bx-star' ></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="21.jpg" alt="">
+                        <h3>larry page</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus impedit, maiores nesciunt commodi nostrum distinctio dicta dignissimos? Animi deserunt cumque sint totam a fuga assumenda et ad odio! Voluptate, reiciendis.</p>
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bx-star' ></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="22.jpg" alt="">
+                        <h3>oprah winfrey</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus impedit, maiores nesciunt commodi nostrum distinctio dicta dignissimos? Animi deserunt cumque sint totam a fuga assumenda et ad odio! Voluptate, reiciendis.</p>
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bx-star' ></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="23.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- brand section starts  -->
+    <section class="brand-container">
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="24.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="25.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="26.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="27.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="28.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="29.jpg" alt=""></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- brand section ends -->
+    <!-- footer section starts  -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In eos omnis voluptas facere commodi sequi repellendus natus inventore, voluptatum, odit, accusantium minima cum dolore. Laudantium, unde?</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">usa</a>
+                <a href="#">australia</a>
+                <a href="#">england</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+            
+        </div>
+
+        <h1 class="credit">created by <span> Ashish Kumar Mishra </span> | all rights reserved! </h1>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
